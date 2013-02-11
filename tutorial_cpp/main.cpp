@@ -34,7 +34,7 @@ int main(int argc, const char * argv[])
         };
 
     }
-    cout << "Goodbye!";
+    cout << "Goodbye!\n";
     return 0;
 }
 

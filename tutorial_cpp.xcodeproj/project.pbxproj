@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		EF515D3F16C8FE2300CE64C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF515D3E16C8FE2300CE64C5 /* main.cpp */; };
 		EF515D4116C8FE2300CE64C5 /* tutorial_cpp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EF515D4016C8FE2300CE64C5 /* tutorial_cpp.1 */; };
+		EF515D4916C9018400CE64C5 /* user.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF515D4816C9018400CE64C5 /* user.cpp */; };
+		EF515D4C16C9032200CE64C5 /* movie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF515D4B16C9032200CE64C5 /* movie.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		EF515D3B16C8FE2300CE64C5 /* tutorial_cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tutorial_cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF515D3E16C8FE2300CE64C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF515D4016C8FE2300CE64C5 /* tutorial_cpp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = tutorial_cpp.1; sourceTree = "<group>"; };
+		EF515D4716C9015600CE64C5 /* user.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
+		EF515D4816C9018400CE64C5 /* user.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = user.cpp; sourceTree = "<group>"; };
+		EF515D4A16C9031200CE64C5 /* movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = movie.h; sourceTree = "<group>"; };
+		EF515D4B16C9032200CE64C5 /* movie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = movie.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 			children = (
 				EF515D3E16C8FE2300CE64C5 /* main.cpp */,
 				EF515D4016C8FE2300CE64C5 /* tutorial_cpp.1 */,
+				EF515D4716C9015600CE64C5 /* user.h */,
+				EF515D4816C9018400CE64C5 /* user.cpp */,
+				EF515D4A16C9031200CE64C5 /* movie.h */,
+				EF515D4B16C9032200CE64C5 /* movie.cpp */,
 			);
 			path = tutorial_cpp;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF515D3F16C8FE2300CE64C5 /* main.cpp in Sources */,
+				EF515D4916C9018400CE64C5 /* user.cpp in Sources */,
+				EF515D4C16C9032200CE64C5 /* movie.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
